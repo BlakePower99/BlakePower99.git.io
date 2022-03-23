@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Document</title>
+       
+       <style>
+            h1{
+                color:green;
+              }
+             .blueHeading{
+                color: blue;
+              }
+              .specialFont{
+                  font-family:arial,Helvetica,san-serif;
+                        }
+              #specialHeading{
+                  text-decoration: underline;
+                         }
+                         a[title]{
+                             color:blue;
+                         }
+                         a:hover{
+                             color:red;
+                         }
+                         .myText::before{
+                             content: "New content added using CSS."
+                         }
+                         h1,h2, a[title], .specialList {
+                             color: indigo
+                         }
+                         
+                        
+                        
+        </style>
+
+      
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+       <a href="https://www.conestogac.on.ca/" title="Conestoga college">This will show up in red</a>
+       
+        <h1 id="specialHeading">This will be underlined Text</h1><br><br>
+       
+        <h1 class="blueheading specialFont">Test heading in blue.</h1>
+
+        <a href="https://www.conestogac.on.ca/" title="Conestoga college 299 Doon Valley Drive">Here we are talking about my fav college</a>
+        
+        <p class="myText">The new content will appear before this text.</p>
+        
+        <h1>heading in green.</h1>
+        <h1>Test heading in green.</h1>
+        <h1>Test heading in green.</h1>
+    </body>
+</html>
